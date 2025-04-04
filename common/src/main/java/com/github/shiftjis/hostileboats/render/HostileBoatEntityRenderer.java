@@ -35,8 +35,9 @@ public class HostileBoatEntityRenderer extends MobEntityRenderer<HostileBoatEnti
 
         float animationProgress = getAnimationProgress(boatEntity, tickDelta);
         matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(180F - yaw));
+        matrixStack.multiply(RotationAxis.POSITIVE_X.rotationDegrees(headPitch));
+        matrixStack.scale(-1.0F, -1.0F, 1.0F);
         matrixStack.multiply(RotationAxis.POSITIVE_Y.rotationDegrees(90F));
-        matrixStack.multiply(RotationAxis.POSITIVE_Z.rotationDegrees(180F + headPitch));
         model.setAngles(boatEntity, tickDelta, 0F, -0.1F, 0, headPitch);
 
         MinecraftClient instance = MinecraftClient.getInstance();
