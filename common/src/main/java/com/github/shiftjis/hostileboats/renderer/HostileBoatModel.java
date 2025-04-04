@@ -1,6 +1,6 @@
-package com.github.shiftjis.hostileboats.render;
+package com.github.shiftjis.hostileboats.renderer;
 
-import com.github.shiftjis.hostileboats.entity.HostileBoatEntity;
+import com.github.shiftjis.hostileboats.entities.HostileBoatEntity;
 import com.google.common.collect.ImmutableList;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

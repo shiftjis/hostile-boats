@@ -1,12 +1,12 @@
-package com.github.shiftjis.hostileboats.entity;
+package com.github.shiftjis.hostileboats.entities;
 
-import com.github.shiftjis.hostileboats.entity.controls.BoatBodyControl;
-import com.github.shiftjis.hostileboats.entity.controls.BoatLookControl;
-import com.github.shiftjis.hostileboats.entity.controls.BoatMoveControl;
-import com.github.shiftjis.hostileboats.entity.goals.CircleMovementGoal;
-import com.github.shiftjis.hostileboats.entity.goals.FindTargetGoal;
-import com.github.shiftjis.hostileboats.entity.goals.StartAttackGoal;
-import com.github.shiftjis.hostileboats.entity.goals.SwoopMovementGoal;
+import com.github.shiftjis.hostileboats.entities.controls.BoatBodyControl;
+import com.github.shiftjis.hostileboats.entities.controls.BoatLookControl;
+import com.github.shiftjis.hostileboats.entities.controls.BoatMoveControl;
+import com.github.shiftjis.hostileboats.entities.goals.CircleMovementGoal;
+import com.github.shiftjis.hostileboats.entities.goals.FindTargetGoal;
+import com.github.shiftjis.hostileboats.entities.goals.StartAttackGoal;
+import com.github.shiftjis.hostileboats.entities.goals.SwoopMovementGoal;
 import net.minecraft.entity.*;
 import net.minecraft.entity.ai.control.BodyControl;
 import net.minecraft.entity.data.DataTracker;

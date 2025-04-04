@@ -1,6 +1,6 @@
-package com.github.shiftjis.hostileboats.entity.goals;
+package com.github.shiftjis.hostileboats.entities.goals;
 
-import com.github.shiftjis.hostileboats.entity.HostileBoatEntity;
+import com.github.shiftjis.hostileboats.entities.HostileBoatEntity;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;

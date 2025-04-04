@@ -1,4 +1,4 @@
-package com.github.shiftjis.hostileboats.entity.controls;
+package com.github.shiftjis.hostileboats.entities.controls;
 
 import net.minecraft.entity.ai.control.LookControl;
 import net.minecraft.entity.mob.MobEntity;

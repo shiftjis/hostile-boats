@@ -1,6 +1,6 @@
-package com.github.shiftjis.hostileboats.entity.controls;
+package com.github.shiftjis.hostileboats.entities.controls;
 
-import com.github.shiftjis.hostileboats.entity.HostileBoatEntity;
+import com.github.shiftjis.hostileboats.entities.HostileBoatEntity;
 import net.minecraft.entity.ai.control.MoveControl;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3d;

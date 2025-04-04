@@ -1,6 +1,6 @@
-package com.github.shiftjis.hostileboats.entity.goals;
+package com.github.shiftjis.hostileboats.entities.goals;
 
-import com.github.shiftjis.hostileboats.entity.HostileBoatEntity;
+import com.github.shiftjis.hostileboats.entities.HostileBoatEntity;
 import net.minecraft.entity.ai.goal.Goal;
 
 import java.util.EnumSet;

@@ -1,6 +1,6 @@
 package com.github.shiftjis.hostileboats.fabric;
 
-import com.github.shiftjis.hostileboats.render.HostileBoatEntityRenderer;
+import com.github.shiftjis.hostileboats.renderer.HostileBoatEntityRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 
